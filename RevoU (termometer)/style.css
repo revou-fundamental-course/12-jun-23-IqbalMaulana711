@@ -1,0 +1,58 @@
+body {
+    background-color : aliceblue;    
+    background-image: url(swords.png);
+}
+
+.title {
+
+}
+
+.input {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+.input-field {
+    text-align: center;
+}
+
+.hasilSuhu {
+    background-color: none;
+    display:flex;
+    justify-content: center;
+}
+
+.bckef {
+    display: inline-block;
+    padding: 5px 10px;
+    background-image: url(nite.jpg);
+    background-size: cover;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.bckek {
+    display: inline-block;
+    padding: 5px 10px;
+    background-image: url(nite.jpg);
+    background-size: cover;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.bcker {
+    display: inline-block;
+    padding: 5px 10px;
+    background-image: url(nite.jpg);
+    background-size: cover;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.hasil {
+    text-align: center;
+    color:aliceblue;
+    padding: 10px;
+}

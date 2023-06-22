@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+ <html>
+
+ <head>
+    <title? class="title"><h1>TEMPERATURE CONVERTOR</h1></title>
+    <style>
+      h1 {
+         justify-content: center;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+         color: aliceblue;
+         text-align: center;
+         letter-spacing: 10px;
+      }
+    </style>
+    <script>
+      function ckef() {
+         var c = parseFloat(document.getElementById('c').value);
+         var hasil = c * 9 / 5 + 32 + " ℉";
+         document.getElementById('hasil').innerHTML = hasil;
+      }
+
+      function ckek() {
+         var c = parseFloat(document.getElementById('c').value);
+         var hasil = c * 5 / 5 + 273 + " K";
+         document.getElementById('hasil').innerHTML = hasil;
+      }
+
+      function cker() {
+         var c = parseFloat(document.getElementById('c').value);
+         var hasil = c * 4 / 5 + " °R";
+         document.getElementById('hasil').innerHTML = hasil;
+      }
+
+    </script>
+    <link rel="stylesheet" href="style.css" />
+ </head>
+
+ <body>
+   <div class="input">
+         <p>Enter temperature in celsius in the column below</p>
+      <input class="input-field" type="text" id="c" placeholder="celcius"><br>
+         <p></p>
+   </div>
+   <div class="hasilSuhu">
+      <button class="bckef" onclick="ckef()">Fahrenheit</button>
+      <button class="bckek" onclick="ckek()">Kelvin</button>
+      <button class="bcker" onclick="cker()">Reamur</button>
+   </div>
+   <div class="hasil"> 
+        <p>Result : <span id="hasil"></span></p>  
+   </div>
+
+ </body>
+ </html> 
